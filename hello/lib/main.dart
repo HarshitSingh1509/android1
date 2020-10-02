@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Time Tracker',
+      title: 'TIME TRACKER',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
@@ -17,3 +17,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+//changes done by GB bold text only
