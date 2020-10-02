@@ -14,10 +14,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Home Page'), actions: <Widget>[
+      appBar: AppBar(title: Text('HOME PAGE'), actions: <Widget>[
         FlatButton(
-          child: Text('Logout',
-              style: TextStyle(fontSize: 18.0, color: Colors.white)),
+          child: Text('LOGOUT',
+              style: TextStyle(fontSize: 22.0, color: Colors.white)),
           onPressed: _signOut,
         )
       ]),
